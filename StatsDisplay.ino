@@ -264,38 +264,6 @@ void loop() {
 
 }
 
-void get_stats(char * message){
-  /*
-  while (Serial.available() > 0){
-   //Create a place to hold the incoming message
-   
-   static unsigned int message_pos = 0;
-
-   //Read the next available byte in the serial receive buffer
-   
-   char inByte = Serial.read();
-
-   //Message coming in (check not terminating character) and guard for over message size
-   
-   if ( inByte != '\n' && (message_pos < MAX_MESSAGE_LENGTH - 1) ){
-    
-     //Add the incoming byte to our message
-     message[message_pos] = inByte;
-     message_pos++;
-     
-   }else{
-    
-     //Add null character to string
-     message[message_pos] = '\0';
-     
-     //Reset for the next message
-     message_pos = 0;
-   }
- }
- */
- 
-}
-
 void drawchar(char * value,int x,int y) {
   display.setTextSize(1);      // Normal 1:1 pixel scale
   display.setTextColor(SSD1306_WHITE); // Draw white text
