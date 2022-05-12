@@ -1,7 +1,7 @@
 # ArduinoComputerStatsDisplay
 Show your computer fans' speed, cpu temperature, gpu temperature on an oled display.
 
-
+https://www.youtube.com/watch?v=8UbVgUFfN8U
 
 Select a gif of an icon preferably.
 Seperate the gif on its many images, more than 3 for an animation might be too many. This site can be used for this https://ezgif.com/split  
